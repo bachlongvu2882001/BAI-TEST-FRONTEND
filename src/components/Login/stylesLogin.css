@@ -1,0 +1,81 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+.form{
+  background: #ffff;
+  border-radius: 5px;
+}
+
+pre {
+  width: 70%;
+  color: #fff;
+  font-size: larger;
+}
+
+input{
+  border: 1px solid #cdcfd1;
+  height: 35px;
+  border-radius: 9px;
+  background-color: #fff;
+}
+
+button {
+  padding: 10px 20px;
+  color: #ffff;
+  border-radius: 7px;
+ 
+}
+
+.btn-signin{
+  background: #2e09db;
+  border: 1px solid  #2e09db;
+  margin-right: 15px;
+}
+
+p {
+  color: red;
+}
+
+.submit1{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 165px;
+}
+
+.validate-check {
+  display: flex;
+  align-items: center;
+}
+
+.validate-check label{
+  padding-left: 9px;
+  color: black;
+}
+
+h3{
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+label{
+  margin-bottom: 7px;
+  color: #2e09db;
+}
+button:hover {
+  background-color: #cfdef7; 
+  color:#2e09db;
+  border: 1px solid  #cfdef7;
+}
+
+@media screen and (max-width: 767px){
+  .check label{
+    font-size: 10px;
+  }
+}

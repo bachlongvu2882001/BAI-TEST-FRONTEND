@@ -1,0 +1,74 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+form{
+  background: #ffff;
+  font-size: 1.6rem;
+  padding: 70px 50px;
+  border-radius: 15px;
+}
+.field{
+  display: flex;
+  flex-direction: column;
+  color: #cdcfd1;
+  
+ 
+}
+p{
+  margin-bottom: 20px;
+}
+
+pre {
+  width: 70%;
+  color: #fff;
+  font-size: larger;
+}
+
+button {
+  
+  padding: 10px 20px;
+  color: #ffff;
+  border-radius: 7px;
+ 
+}
+.btn-update{
+  background-color: #2e09db;
+  border: 1px solid  #2e09db;
+  margin-right: 15px;
+  
+}
+.btn-cancle{
+  background-color: #eeebfc;
+  border: 1px solid    #eeebfc;
+  color:#7559e7;
+}
+p {
+  color: red;
+}
+input{
+  border: 1px solid #cdcfd1;
+  height: 35px;
+  border-radius: 9px;
+  background-color: #fff;
+}
+.submit{
+  display: flex;
+  justify-content: right;
+}
+h3{
+  margin-bottom: 27px;
+  text-align: left;
+}
+label{
+  margin-bottom: 7px;
+}
+button:hover {
+  background-color: #cfdef7; 
+  color:#2e09db;
+  border: 1px solid  #cfdef7;
+}
